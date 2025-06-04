@@ -1,0 +1,84 @@
+{Add commentMore actions
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #667eea, #764ba2);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+header h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #f0e7ff;
+}
+
+.game-container {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+  margin: 2rem auto;
+}
+
+input[type="number"] {
+  padding: 0.7rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  width: 80%;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+button {
+  background-color: #ffffff;
+  color: #764ba2;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #dcdcdc;
+}
+
+.message {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  min-height: 1.5rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  background: rgba(0,0,0,0.2);
+  width: 100%;
+}
